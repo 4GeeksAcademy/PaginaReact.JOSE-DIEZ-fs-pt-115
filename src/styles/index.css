@@ -9,4 +9,9 @@
     import 'relative/path/to/stylesheet.scss';
 img
 */
-
+body {
+    background-image: url(https://i.pinimg.com/736x/4c/86/88/4c86887a5e29b181afdecc1db6df394a.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}

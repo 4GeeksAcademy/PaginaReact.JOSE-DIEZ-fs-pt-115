@@ -6,9 +6,9 @@ export const NavBar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-dark">
+      <nav className="navbar navbar-expand-lg bg-success">
         <div className="container-fluid">
-          <a className="navbar-brand text-white" href="#">Navbar</a>
+          <a className="navbar-brand text-white" href="#">Naruto</a>
           
           <button
             className="navbar-toggler bg-white"
@@ -24,13 +24,13 @@ export const NavBar = () => {
           <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
             <ul className="navbar-nav ms-auto text-white">
               <li className="nav-item">
-                <a className="nav-link active text-white" aria-current="page" href="#">Home</a>
+                <a className="nav-link active text-white" aria-current="page" href="#">Konoha</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">Features</a>
+                <a className="nav-link text-white" href="#">Ninjas</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">Pricing</a>
+                <a className="nav-link text-white" href="#">Maps</a>
               </li>
             </ul>
           </div>
